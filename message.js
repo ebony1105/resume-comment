@@ -13,7 +13,7 @@
             var message = new Message();
             return message.save({'content': content,'name':name}) ////返回一个promise对象
         },
-        initAV: function(){
+        init: function(){
             AV.init({
                 appId: "zufcBlS3mzHl1PgiccUJefCK-gzGzoHsz",
                 appKey: "cpM3C7146DVEKj2aIURk3HFh",
@@ -31,7 +31,7 @@
             this.model = model;
             this.messageList = view.querySelector('#messageList');
             this.form = view.querySelector('#postMessage');
-            this.model.ininAV();
+            this.model.init();
             this.loadMessage();
             this.bindEvents();
 
