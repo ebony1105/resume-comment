@@ -71,7 +71,7 @@
             })
         },
     }
-    controller.init(view)
+    controller.init(view,model);
 }.call()
 
 
