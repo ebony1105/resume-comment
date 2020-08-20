@@ -1,0 +1,206 @@
+<!DOCTYPE HTML>
+<HTML>
+  <HEAD>
+	  <TITLE>My-Page</TITLE>
+	  <link rel="stylesheet" href="./loading.css">
+	  <meta charset="UTF-8">
+	  <link href="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/css/swiper.min.css" rel="stylesheet">
+	  <link rel="stylesheet" href="main.css">
+
+  </HEAD>
+  <BODY>
+    <div id="siteWelcome" class="site-welcome active">
+		<div class="loading"></div>
+	</div>
+  	<div id="topNavBar" class="TopNavBar">
+		<div class="TopNavBar-inner clearfix">
+			<a class="logo" href="#" alt="logo" style="float: left;">
+				<span class="rs">RS</span>
+				<span class="card">card</span>
+		   </a>
+			<nav class="menu" style="float: right;">
+				<ul class="clearfix">
+					<li><a href="#siteabout">ABOUT</a>
+					</li>
+					<li><a href="#siteskill">SKILLS</a></li>
+					<li>
+						<a href="#sitework">PRCING</a>
+						<ul class="submenu">
+							<li>work 1</li>
+							<li>work 2</li>
+							<li>work 3</li>
+						</ul>
+					</li>
+					<li>
+						<a href="#siteblog">BLOG</a>
+						<ul class="submenu">
+							<li>blog 1</li>
+							<li>blog 2</li>
+							<li>blog 3</li>
+						</ul>
+					</li>
+					<li><a href="#">EXPERIENCE</a></li>
+					<li><a href="#">CALENDAR</a></li>
+					<li><a href="#">CONTACT</a></li>
+					<li><a href="#">OTHER</a></li>
+					<li><a href="#">ALL DEMOS</a></li>
+				</ul>
+			</nav>
+		  </div>
+	</div>
+	<div class="banner">
+		<div class="mask"></div>
+	</div>
+  	<main style="margin-top: -300px;">
+  		<div data-xi6f id="siteabout" class="UserCard">
+			<div class="pictureAndText clearfix">
+				<div class="picture">
+					<img src="./img/head.jpg" height="347" width="299" alt="avatar">
+				</div>
+				<div class="text">
+					<span class="Welcome">
+						Hello
+						<span class="triangle"></span>
+					</span>
+					<h1>陆佳鑫</h1>
+					<p>前端开发工程师</p>
+					<hr>
+					<dl>
+						<dt>年龄</dt>
+						<dd>23</dd>
+						<dt>城市</dt>
+						<dd>南京</dd>
+						<dt>邮箱</dt>
+						<dd>405447460@qq.com</dd>
+						<dt>电话</dt>
+						<dd>1882736830</dd>
+						<dt>入职时间</dt>
+						<dd>七月一号</dd>
+				  </dl>
+			</div> 
+		</div>
+  			<footer class="media">
+  				<a href="#">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-github"></use>
+					</svg>
+				</a>
+  				<a href="#">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-zhihu"></use>
+					</svg>
+				</a>
+  				<a href="#">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-weibo"></use>
+					</svg>
+				</a>
+  				<a href="#">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-tuite"></use>
+					</svg>
+				</a>
+  				<a href="#">
+					<svg class="icon" aria-hidden="true">
+						<use xlink:href="#icon-weixin"></use>
+					</svg>
+				</a>
+  			</footer>
+		  </div>
+		  <p class="downloadResume-wrapper">
+			<a class="downloadResume" href="./resume.png" target="_blank" >Download Resume</a>
+		  </p>
+  		
+  		<p class="selfIntroduction">
+			Ebony who are obessed to the script and development.
+		</p>
+  	</main>
+  	<section data-x id="siteskill" class="skills">
+  		<h2>SKILLS</h2>
+  		<ol class="clearfix">
+  			<li>
+				<h3>html 5 &amp; CSS 3</h3> 
+				<div class="progressBar">
+					<div class="progress" style="width: 40%;"></div>
+				</div>
+			</li>
+			<li>
+				<h3>JaveScript</h3> 
+				<div class="progressBar">
+					<div class="progress" style="width: 20%;"></div>
+				</div>
+			</li>
+			<li>
+				<h3>jQuery</h3> 
+				<div class="progressBar">
+					<div class="progress" style="width: 80%;"></div>
+				</div>
+			</li>
+			<li>
+				<h3>Vue</h3> 
+				<div class="progressBar">
+					<div class="progress" style="width: 70%;"></div>
+				</div>
+			</li>
+			<li>
+				<h3>React</h3> 
+				<div class="progressBar">
+					<div class="progress" style="width:30%;"></div>
+				</div>
+			</li>
+			<li>
+				<h3>HTTP</h3> 
+				<div class="progressBar">
+					<div class="progress"  style="width: 90%;"></div>
+				</div>
+			</li>
+  		</ol>
+  	</section>
+  	<section data-x id="sitework" class = "portfolio">
+  		<H2>Portfolio</H2>
+		<div id="mySlides">
+			<div class="swiper-container">
+				<!-- Additional required wrapper -->
+				<div class="swiper-wrapper">
+					<!-- Slides -->
+					<img class="swiper-slide" src="img/works/nav-demo.png">
+					<img class="swiper-slide" src="img/works/lunbo-page.png" >
+					<img class="swiper-slide" src="img/works/canvas-page.jpg">
+					<!-- If we need pagination -->
+					<div class="swiper-pagination"></div>
+
+					<!-- If we need navigation buttons -->
+
+
+					<!-- If we need scrollbar
+                    <div class="swiper-scrollbar"></div>
+                    -->
+				</div>
+			</div>
+			<div class="swiper-button-prev"></div>
+			<div class="swiper-button-next"></div>
+		</div>
+	</section>
+	<section class="message">
+		<h2>留言</h2>
+		<ol id="messageList">
+		</ol>
+		<form action="" id="postMessage" style="width:500px; height: 375px; margin: 50px auto;" >
+			<label for="">姓名</label>
+			<input type="text" name="name" value="请输入你的名字">
+			<label for="">评论</label>
+			<input type="text" name="content" value="你的留言">
+			<input type="submit" value="submit">   <!--这里不能通过监听submit的click事件，要监听form的submit事件-->
+		</form>
+	</section>
+	<script src="//at.alicdn.com/t/font_1879890_c0jyipcr94.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/Swiper/5.4.5/js/swiper.min.js"></script>
+	<script src="//cdn.jsdelivr.net/npm/leancloud-storage@4.6.1/dist/av-min.js"></script>
+	<script src="https://cdn.bootcdn.net/ajax/libs/tween.js/17.1.1/Tween.min.js"></script>
+	<script src="sticky-topbar.js"></script>
+	<script src="swiper.js"></script>
+	<script src="scroll.js"></script>
+	<script src="smooth-nav.js"></script>
+	<script src="message.js"></script>
+  </BODY>
+</HTML>
